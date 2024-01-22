@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(26, 26, 39);
+}
+
+.cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 5rem;
+    height: 55rem;
+    width: 40rem;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.google{
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 1.1rem 10rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+}
+
+.apple{
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 1.2rem 10rem;
+}
+.logo-g{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.line{
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+}
+
+
+.phone {
+    text-align: left; /* Align the text to the left */
+}
+
+.contact {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1.1rem 10rem;
+}
+
+
+.next{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 1.1rem 15rem;
+    
+}
+
+.pass{
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 1.1rem 12rem;
+
+}
+
+.sgn{
+    color: blue;
+}
+
+
+.logo{
+    height: 2rem;
+}
+
